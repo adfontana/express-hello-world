@@ -35,7 +35,7 @@ This is a simple "Hello World!" API, build with Node.js, Typescript and Express.
     ```
     "start": "tsnd --respawn --transpile-only src/index.ts",
     ```
-    This coomand is executed by the `ts-node-dev` package, it will start the server and restarts node process if any `.ts` files are changed.
+    This command is executed by the `ts-node-dev` package, it will start the server and restarts node process, if any `.ts` files are changed.
 7. Paste de code below in your `index.ts` file
     ```typescript
     import express from 'express';
