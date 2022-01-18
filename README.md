@@ -23,7 +23,7 @@ This is a simple "Hello World!" API, build with Node.js, Typescript and Express.
     [@types/express](https://www.npmjs.com/package/@types/express) This package contains type definitions for Express
 5. Create a `tsconfig.json` file with default compiler options
     ```
-    tsc --init
+    npx tsc --init
     ```
     Open the file created in your root directory, and add the lines below
     ```json
