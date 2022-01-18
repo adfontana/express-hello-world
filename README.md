@@ -30,7 +30,7 @@ This is a simple "Hello World!" API, build with Node.js, Typescript and Express.
     "rootDir": "src",
     "outDir": "dist"
     ```
-    This will tell the typescript compiler where the source (`"rootDir": "src"`) of the `.ts` files are, and where to generated the compiled `.js` files (`"outDir": "dist"`).
+    This will tell the typescript compiler where the source (`"rootDir": "src"`) of the `.ts` files are, and where to generate the compiled `.js` files (`"outDir": "dist"`).
 6. Add a start script in `package.json `
     ```
     "start": "tsnd --respawn --transpile-only src/index.ts",
